@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS", // Use CommonJS module system for Node.js
+    "lib": ["es2018", "dom"], // Include typings for ES2018 and DOM APIs
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES modules
+    "strict": true, // Enable strict type-checking options
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file naming
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "rootDir": "./" // Root directory of TypeScript source files
+  },
+  "include": ["*.ts", "models/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"] // Exclude files and directories from compilation
+}

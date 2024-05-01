@@ -1,0 +1,31 @@
+
+
+{
+  "development": {
+    "username": "root",
+    "password": "rvqHrvpLSnMlXhYdmEjrBSfNqFZHKKli",
+    "database": "railway",
+    "host": "monorail.proxy.rlwy.net",
+    "dialect": "mysql",
+    "dialectModule": "mysql2",
+    "use_env_variable":"mysql://root:rvqHrvpLSnMlXhYdmEjrBSfNqFZHKKli@monorail.proxy.rlwy.net:47719/railway"
+  },
+  "test": {
+    "username": "root",
+    "password": "rvqHrvpLSnMlXhYdmEjrBSfNqFZHKKli",
+    "database": "railway",
+    "host": "monorail.proxy.rlwy.net",
+    "dialect": "mysql",
+    "dialectModule": "mysql2",
+    "use_env_variable":"mysql://root:rvqHrvpLSnMlXhYdmEjrBSfNqFZHKKli@monorail.proxy.rlwy.net:47719/railway"
+  },
+  "production": {
+    "username": "root",
+    "password": "rvqHrvpLSnMlXhYdmEjrBSfNqFZHKKli",
+    "database": "railway",
+    "host": "monorail.proxy.rlwy.net",
+    "dialect": "mysql",
+    "dialectModule": "mysql2",
+    "use_env_variable":"mysql://root:rvqHrvpLSnMlXhYdmEjrBSfNqFZHKKli@monorail.proxy.rlwy.net:47719/railway"
+  }
+}

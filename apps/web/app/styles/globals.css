@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  background-color: #dbdcdd;
+  scroll-behavior: smooth;
+}
+
+html.dark {
+  background-image: url("../../public/images/backgrounds/bgcrop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#changetheme svg,
+html #hamburger svg path,
+html .ColorChangableIcons svg path{
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+html.dark #changetheme svg,
+html.dark #hamburger svg path,
+html.dark .ColorChangableIcons svg path{
+  fill: white;
+}
+
+.editor-container .ProseMirror {
+  outline: none !important;   
+  max-height: 250px;
+  height: 100%;
+}
+
+.premiumSvg svg, .premiumSvg svg path, .premiumSvg svg line{
+  fill:#626262;
+  stroke:#626262;
+}
+.premiumSvg.active svg, .premiumSvg.active svg path, .premiumSvg.active svg line{
+  fill:#FED431;
+  stroke:#FED431;
+}
+.grayIcon svg path{
+  fill:#626262;
+}
+
+@media screen and (min-width:1024px) {
+  html .swiperNavigation svg  path{
+    fill:rgb(66, 66, 66);
+  }
+  html.dark .swiperNavigation svg  path{
+    fill: white;
+  }
+}
+
+
+
+
+.swiper-nostop .swiper-wrapper{
+  -webkit-transition-timing-function:linear!important; 
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important; 
+}
