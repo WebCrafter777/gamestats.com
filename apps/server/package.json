@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "dev": "ts-node-dev server.ts",
-    "build": "rimraf dist && mkdir -p dist/config && cp -R ./config/. dist/config && tsc && cp .env dist/"
+    "build": "tsc"
 
   },
   "license": "ISC",

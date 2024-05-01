@@ -5,7 +5,7 @@ import process from "process";
 import fs from 'fs'
 import path from 'path'
 
-// @ts-ignore
+
 import {Sequelize,DataTypes} from 'sequelize'
 import mysql2 from 'mysql2'; 
 
